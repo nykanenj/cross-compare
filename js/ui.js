@@ -3,7 +3,7 @@ const onOpen = (e) => {
   const ui = SpreadsheetApp.getUi();
   let menu = ui.createAddonMenu();
 
-  menu.addItem("Hello world", "hello");
+  menu.addItem("Cross compare", "crossCompare");
 
   /*
   menu.addSubMenu(
